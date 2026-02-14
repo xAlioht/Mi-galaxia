@@ -1,0 +1,75 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://baque2005.github.io/public-files/files/1770515861577_galaxia.html
+Subject: Galaxia para ti
+Date: Fri, 13 Feb 2026 23:36:00 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--T6l7gmvT7lzbnazMhwl3iPUJuqCBPf8eegyW9t565f----"
+
+
+------MultipartBoundary--T6l7gmvT7lzbnazMhwl3iPUJuqCBPf8eegyW9t565f----
+Content-Type: text/html
+Content-ID: <frame-D3D7B752AD842C656706BB59E8623D00@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://baque2005.github.io/public-files/files/1770515861577_galaxia.html
+
+<!DOCTYPE html><html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-b67dcf9a-9775-4b98-ad89-6a8a3377b9f1@mhtml.blink" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Galaxia para ti</title>
+  <meta name="description" content="Galaxia interactiva de frases de cariño 💘">
+  <meta property="og:title" content="Galaxia para ti">
+  <meta property="og:description" content="Una galaxia interactiva con palabras de cariño 💖">
+  <meta property="og:image" content="og-cover.png">
+  <link rel="icon" type="image/png" href="https://baque2005.github.io/public-files/files/favicon.png">
+  
+  <!-- Three.js legacy non-module build + OrbitControls (r128, super estable) -->
+  
+  
+</head>
+<body>
+<canvas id="galaxy-canvas" width="768" height="1464" style="width: 384px; height: 732px;"></canvas>
+<div class="pill">Te Amo Muchote Mi Luna❤️</div>
+<div class="attribution">Base: tlanex · Adaptación para Jotab 💫</div>
+<div id="err" class="error"></div>
+
+<div class="player">
+  <button id="playBtn">▶︎</button>
+  <span style="font-size:12px;opacity:.9">Elije tu cancion  <b>cancion.mp3</b>Detalles Mr<b>💙🌹♥️</b> (Reproductor Mr”)</span>
+  <input type="file" id="pickFile" accept="audio/*">
+  <button id="pickBtn">Elegir canción</button>
+  <audio id="audio" preload="none">
+    <source src="https://baque2005.github.io/public-files/files/ahi_estabas_tu.mp3" type="audio/mpeg">
+  </audio>
+</div>
+
+<canvas id="fx" style="position: fixed; inset: 0px; pointer-events: none; width: 384px; height: 732px;" width="768" height="1464"></canvas>
+
+
+
+
+</body></html>
+------MultipartBoundary--T6l7gmvT7lzbnazMhwl3iPUJuqCBPf8eegyW9t565f----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-b67dcf9a-9775-4b98-ad89-6a8a3377b9f1@mhtml.blink
+
+@charset "utf-8";
+
+html, body { margin: 0px; height: 100%; background: rgb(0, 0, 0); overflow: hidden; }
+
+#galaxy-canvas { position: fixed; inset: 0px; width: 100%; height: 100%; display: block; touch-action: none; }
+
+.attribution { position: fixed; left: 10px; bottom: 10px; font-size: 11px; color: rgb(185, 160, 255); opacity: 0.8; background: rgba(0, 0, 0, 0.35); padding: 6px 8px; border-radius: 8px; }
+
+.player { position: fixed; left: 10px; right: 10px; bottom: 10px; display: flex; gap: 8px; align-items: center; background: rgba(20, 15, 35, 0.35); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 12px; padding: 8px; backdrop-filter: blur(6px); color: rgb(255, 255, 255); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial; }
+
+.player button { padding: 8px 12px; border-radius: 10px; border: 1px solid rgba(255, 255, 255, 0.2); background: rgba(255, 255, 255, 0.08); color: rgb(255, 255, 255); }
+
+.player input[type="file"] { display: none; }
+
+.pill { position: fixed; top: 10px; left: 50%; transform: translateX(-50%); padding: 6px 12px; border-radius: 999px; background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.18); color: rgb(255, 255, 255); font: 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial; }
+
+.error { position: fixed; inset: auto 10px 70px; background: rgb(38, 0, 21); color: rgb(255, 217, 247); border: 1px solid rgb(255, 138, 229); border-radius: 10px; padding: 10px; font: 12px system-ui; display: none; }
+------MultipartBoundary--T6l7gmvT7lzbnazMhwl3iPUJuqCBPf8eegyW9t565f------
